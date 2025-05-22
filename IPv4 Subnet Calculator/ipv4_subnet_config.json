@@ -1,0 +1,38 @@
+{
+    "defaults": {
+        "output_format": "json",
+        "verbose_logging": true,
+        "log_file": "subnet_calculator.log"
+    },
+    "network_settings": {
+        "preserve_network_boundaries": true,
+        "allow_uneven_subnets": false,
+        "maximum_prefix_length": 30
+    },
+    "presets": {
+        "office_network": {
+            "network_ip": "10.10.0.0/16",
+            "num_networks": 8,
+            "description": "Standard office network segmentation"
+        },
+        "datacenter": {
+            "network_ip": "172.16.0.0/20",
+            "hosts_per_subnet": 50,
+            "description": "Datacenter host allocation"
+        }
+    },
+    "output_templates": {
+        "brief": {
+            "include_network_summary": true,
+            "include_subnet_details": false,
+            "show_usable_hosts": true
+        },
+        "detailed": {
+            "include_network_summary": true,
+            "include_subnet_details": true,
+            "show_usable_hosts": true,
+            "show_broadcast": true,
+            "show_host_mask": true
+        }
+    }
+}
