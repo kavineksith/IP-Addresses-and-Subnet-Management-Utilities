@@ -88,3 +88,17 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## ⚠️ Disclaimer
 
 This software is provided "as is" without warranty of any kind, express or implied. The authors are not responsible for any legal implications of generated license files or repository management actions. It is designed for educational and professional use. Use it responsibly, especially when processing large or sensitive datasets. **This is a personal project intended for educational purposes. The developer makes no guarantees about the reliability or security of this software. Use at your own risk.**
+
+## Disclaimer (Sumarrized)
+
+This software is provided as-is without any warranties. The developers are not responsible for:
+- Any misuse of this software
+- Network configuration decisions made based on this tool's output
+- Any damage caused by incorrect calculations (though extensive testing has been performed)
+- Compatibility issues with specific environments
+
+Users are responsible for:
+- Validating results for critical network configurations
+- Ensuring proper input formats
+- Backing up important data before making network changes
+
