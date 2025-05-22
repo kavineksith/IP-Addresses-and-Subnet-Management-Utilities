@@ -28,14 +28,7 @@ A comprehensive collection of network calculation tools for IPv4 and IPv6 addres
 - **Threaded processing**: Optimized performance for large datasets
 - **Robust validation**: Graceful handling of invalid inputs
 
-## 📋 Installation
-
-```bash
-git clone https://github.com/your-repo/network-calculators.git
-cd network-calculators
-```
-
-**Requirements**: Python 3.10+
+## **Requirements**: Python 3.10+
 
 ## 🛠️ Usage
 
